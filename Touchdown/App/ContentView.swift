@@ -30,6 +30,8 @@ struct ContentView: View {
                             .cornerRadius(12)
                         CategoryGridView()
                         
+                        TitleView(title: "Helmets")
+                        
                         FooterView()
                             .padding(.horizontal)
                     }//:VSTACK
