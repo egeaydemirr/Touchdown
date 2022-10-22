@@ -17,6 +17,7 @@ struct FeaturedItemView: View {
         Image(player.image)
             .resizable()
             .scaledToFit()
+            .frame(minWidth: 200, minHeight: 200)
             .cornerRadius(12)
     }
 }
@@ -24,8 +25,6 @@ struct FeaturedItemView: View {
 struct FeaturedItemView_Previews: PreviewProvider {
     static var previews: some View {
         FeaturedItemView(player: players[0])
-            .previewLayout(.sizeThatFits)
-            .padding()
-            .foregroundColor(colorBackground)
+            .background(colorBackground)
     }
 }
