@@ -1,7 +1,7 @@
 
 
 import Foundation
-struct PlayerModel : Codable {
+struct Player : Codable {
 	let id : Int?
 	let image : String?
 
