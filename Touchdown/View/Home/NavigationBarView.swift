@@ -1,0 +1,44 @@
+//
+//  NavigationBarView.swift
+//  Touchdown
+//
+//  Created by Ege Aydemir on 22.10.2022.
+//
+
+import SwiftUI
+
+struct NavigationBarView: View {
+    // MARK: - PROPERTIES
+    
+    // MARK: - Body
+    var body: some View {
+        HStack{
+            Button(action: {}, label:{
+                Image(systemName: "magnifyingglass")
+                    .font(.title)
+                    .foregroundColor(.black)
+            })  //:BUTTON
+            Spacer()
+            
+            Button(action: {}, label: {
+                ZStack {
+                    Image(systemName: "cart")
+                        .font(.title)
+                    .foregroundColor(.black)
+                    Circle()
+                        .fill(Color.red)
+                        .frame(width: 14, height: 14, alignment: .center)
+                        .offset(x:13, y:-10)
+                }
+            })//:BUTTON
+        }//:HSTACK
+    }
+}
+// MARK: - PREVIEW
+struct NavigationBarView_Previews: PreviewProvider {
+    static var previews: some View {
+        NavigationBarView()
+            .previewLayout(.sizeThatFits)
+            .padding()
+    }
+}
