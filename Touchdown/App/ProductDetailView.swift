@@ -24,6 +24,13 @@ struct ProductDetailView: View {
             //ADD TO CARD
             Spacer()
         }//:VSTACK
+        .ignoresSafeArea(.all, edges: .all)
+        .background(
+            Color(
+                red:sampleProduct.red,
+                green: sampleProduct.green,
+                blue: sampleProduct.blue)
+        ).ignoresSafeArea(.all, edges: .all)
     }
 }
 
