@@ -46,7 +46,8 @@ struct ProductDetailView: View {
                 QuantityFavouriteDetailView()
                     .padding(.vertical, 10)
                 //ADD TO CARD
-                Spacer()
+                AddToCartDetailView()
+                    .padding(.bottom, 20)
                 
             })//:VSTACK
             .padding(.horizontal)
