@@ -36,6 +36,7 @@
 		9383E0392907ECA3003B6427 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9383E0382907ECA3003B6427 /* ProductDetailView.swift */; };
 		9383E03B2907ED29003B6427 /* NavigationBarDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9383E03A2907ED29003B6427 /* NavigationBarDetailView.swift */; };
 		9383E03D2907EFEA003B6427 /* HeaderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9383E03C2907EFEA003B6427 /* HeaderDetailView.swift */; };
+		9383E03F2907F0ED003B6427 /* TopPartDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9383E03E2907F0ED003B6427 /* TopPartDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +71,7 @@
 		9383E0382907ECA3003B6427 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
 		9383E03A2907ED29003B6427 /* NavigationBarDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarDetailView.swift; sourceTree = "<group>"; };
 		9383E03C2907EFEA003B6427 /* HeaderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderDetailView.swift; sourceTree = "<group>"; };
+		9383E03E2907F0ED003B6427 /* TopPartDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPartDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +190,7 @@
 			children = (
 				9383E03A2907ED29003B6427 /* NavigationBarDetailView.swift */,
 				9383E03C2907EFEA003B6427 /* HeaderDetailView.swift */,
+				9383E03E2907F0ED003B6427 /* TopPartDetailView.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 			files = (
 				9351CAF22905BC520008C3F1 /* CategoryGridView.swift in Sources */,
 				9383E03D2907EFEA003B6427 /* HeaderDetailView.swift in Sources */,
+				9383E03F2907F0ED003B6427 /* TopPartDetailView.swift in Sources */,
 				9351CA9B29042DB90008C3F1 /* CodableBundleExtension.swift in Sources */,
 				931221DB2902DC4F00BD226B /* ContentView.swift in Sources */,
 				9351CAF02905BC520008C3F1 /* FooterView.swift in Sources */,
