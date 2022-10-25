@@ -28,6 +28,7 @@ struct ProductDetailView: View {
             //DETAIL TOP PART
             TopPartDetailView()
                 .padding(.horizontal)
+                .zIndex(1)
             //DETAIL BOTTOM BAR
             VStack(alignment: .center, spacing: 0, content: {
                 //RATINGS + SIZES
@@ -44,9 +45,14 @@ struct ProductDetailView: View {
                 
             })//:VSTACK
             .padding(.horizontal)
-            .background(.white)
+            .background(Color.white
+                .clipShape(CustomShape())
+                .padding(.top, -105)
+            )
+            
             
         }//:VSTACK
+        .zIndex(0)
         .ignoresSafeArea(.all, edges: .all)
         .background(
             Color(
