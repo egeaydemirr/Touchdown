@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     // MARK: - PROPERTIES
-    
+    @EnvironmentObject var shop: Shop
     // MARK: - BODY
     var body: some View {
         ZStack {
