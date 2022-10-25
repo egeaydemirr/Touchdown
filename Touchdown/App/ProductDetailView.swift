@@ -26,6 +26,8 @@ struct ProductDetailView: View {
             HeaderDetailView()
                 .padding(.horizontal)
             //DETAIL TOP PART
+            TopPartDetailView()
+                .padding(.horizontal)
             //DETAIL BOTTO MBAR
             //RATINGS + SIZES
             //DESCRIPTION
