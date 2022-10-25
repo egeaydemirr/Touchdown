@@ -18,7 +18,11 @@ struct ContentView: View {
                     .padding(.horizontal, 15)
                     .padding(.bottom)
                     .padding(.top,
-                      UIApplication.shared.windows.first?.safeAreaInsets.top)
+                             UIApplication
+                                 .shared
+                                 .connectedScenes
+                                 .flatMap { ($0 as? UIWindowScene)?.windows ?? [] }
+                                 .first { $0.isKeyWindow }?.safeAreaInsets.top)
                     .background(.white)
                     .shadow(color: Color.black.opacity(0.05), radius: 5, x: 0, y: 5)
                 
