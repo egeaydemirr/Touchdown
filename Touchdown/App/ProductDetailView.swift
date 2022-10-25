@@ -2,7 +2,7 @@
 //  ProductDetailView.swift
 //  Touchdown
 //
-//  Created by Ege Aydemir on 23.10.2022.
+//  Created by Ege Aydemir on 25.10.2022.
 //
 
 import SwiftUI
@@ -31,6 +31,7 @@ struct ProductDetailView: View {
                 green: sampleProduct.green,
                 blue: sampleProduct.blue)
         ).ignoresSafeArea(.all, edges: .all)
+        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
