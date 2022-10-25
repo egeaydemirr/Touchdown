@@ -26,7 +26,7 @@ struct ContentView: View {
                     VStack(spacing: 0){
                         FeaturedTabView()
                             .padding(.vertical, 20)
-                            .frame(height: 250)
+                            .frame(height: UIScreen.main.bounds.width / 1.475)
                             .cornerRadius(12)
                         CategoryGridView()
                         
