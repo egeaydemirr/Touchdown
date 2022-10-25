@@ -23,7 +23,8 @@ struct ProductDetailView: View {
                     .first { $0.isKeyWindow }?.safeAreaInsets.top)
                 
             //HEADER
-            Text(sampleProduct.name)
+            HeaderDetailView()
+                .padding(.horizontal)
             //DETAIL TOP PART
             //DETAIL BOTTO MBAR
             //RATINGS + SIZES

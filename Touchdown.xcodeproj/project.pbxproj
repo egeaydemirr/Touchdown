@@ -33,6 +33,9 @@
 		93721C932902DE50008DBF21 /* product.json in Resources */ = {isa = PBXBuildFile; fileRef = 93721C8F2902DE4F008DBF21 /* product.json */; };
 		93721C942902DE50008DBF21 /* category.json in Resources */ = {isa = PBXBuildFile; fileRef = 93721C902902DE4F008DBF21 /* category.json */; };
 		93721C952902DE50008DBF21 /* brand.json in Resources */ = {isa = PBXBuildFile; fileRef = 93721C912902DE50008DBF21 /* brand.json */; };
+		9383E0392907ECA3003B6427 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9383E0382907ECA3003B6427 /* ProductDetailView.swift */; };
+		9383E03B2907ED29003B6427 /* NavigationBarDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9383E03A2907ED29003B6427 /* NavigationBarDetailView.swift */; };
+		9383E03D2907EFEA003B6427 /* HeaderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9383E03C2907EFEA003B6427 /* HeaderDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +67,9 @@
 		93721C902902DE4F008DBF21 /* category.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = category.json; sourceTree = "<group>"; };
 		93721C912902DE50008DBF21 /* brand.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = brand.json; sourceTree = "<group>"; };
 		93721C972902DF22008DBF21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9383E0382907ECA3003B6427 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
+		9383E03A2907ED29003B6427 /* NavigationBarDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarDetailView.swift; sourceTree = "<group>"; };
+		9383E03C2907EFEA003B6427 /* HeaderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +106,6 @@
 				93721C992902EB44008DBF21 /* View */,
 				93721C962902DEA1008DBF21 /* Data */,
 				9351CA97290425F90008C3F1 /* Data Model */,
-				93721C9C2902EB8D008DBF21 /* Model */,
 				93721C9D2902EB94008DBF21 /* Extension */,
 				93721C9E2902EB9A008DBF21 /* Utility */,
 				93721C972902DF22008DBF21 /* Info.plist */,
@@ -145,6 +150,7 @@
 			children = (
 				931221D82902DC4F00BD226B /* TouchdownApp.swift */,
 				931221DA2902DC4F00BD226B /* ContentView.swift */,
+				9383E0382907ECA3003B6427 /* ProductDetailView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -180,15 +186,10 @@
 		93721C9B2902EB81008DBF21 /* Detail */ = {
 			isa = PBXGroup;
 			children = (
+				9383E03A2907ED29003B6427 /* NavigationBarDetailView.swift */,
+				9383E03C2907EFEA003B6427 /* HeaderDetailView.swift */,
 			);
 			path = Detail;
-			sourceTree = "<group>";
-		};
-		93721C9C2902EB8D008DBF21 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		93721C9D2902EB94008DBF21 /* Extension */ = {
@@ -282,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9351CAF22905BC520008C3F1 /* CategoryGridView.swift in Sources */,
+				9383E03D2907EFEA003B6427 /* HeaderDetailView.swift in Sources */,
 				9351CA9B29042DB90008C3F1 /* CodableBundleExtension.swift in Sources */,
 				931221DB2902DC4F00BD226B /* ContentView.swift in Sources */,
 				9351CAF02905BC520008C3F1 /* FooterView.swift in Sources */,
@@ -289,6 +291,8 @@
 				9351CAE22905BC280008C3F1 /* ProductModel.swift in Sources */,
 				9351CAE12905BC280008C3F1 /* BrandModel.swift in Sources */,
 				9351CAF82905BC520008C3F1 /* NavigationBarView.swift in Sources */,
+				9383E0392907ECA3003B6427 /* ProductDetailView.swift in Sources */,
+				9383E03B2907ED29003B6427 /* NavigationBarDetailView.swift in Sources */,
 				9351CA99290427670008C3F1 /* PlayerModel.swift in Sources */,
 				9351CAF32905BC520008C3F1 /* BrandItemView.swift in Sources */,
 				9351CAF42905BC520008C3F1 /* BrandGridView.swift in Sources */,
