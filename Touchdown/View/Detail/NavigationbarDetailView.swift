@@ -1,13 +1,14 @@
 //
-//  NavigationbarDetailView.swift
+//  NavigationBarDetailView.swift
 //  Touchdown
 //
-//  Created by Ege Aydemir on 23.10.2022.
+//  Created by Ege Aydemir on 25.10.2022.
 //
 
 import SwiftUI
 
-struct NavigationbarDetailView: View {
+
+struct NavigationBarDetailView: View {
     // MARK: - PROPERTIES
     
     // MARK: - BODY
@@ -26,14 +27,17 @@ struct NavigationbarDetailView: View {
                     .foregroundColor(.white)
             })
         }//:Hstack
+        
     }
 }
 // MARK: - PREVIEW
-struct NavigationbarDetailView_Previews: PreviewProvider {
+
+struct NavigationBarDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        NavigationbarDetailView()
+        NavigationBarDetailView()
             .previewLayout(.sizeThatFits)
             .padding()
             .background(Color.gray)
+        
     }
 }
